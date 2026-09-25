@@ -4,7 +4,7 @@ Este repositorio contiene mi Trabajo de Fin de Grado en Ingeniería Informática
 
 La idea es sencilla. Cuando alguien genera un deepfake, suele acertar bastante bien con la imagen o con el audio por separado, pero rara vez consigue que ambos encajen perfectamente en el tiempo. Este proyecto explota justamente ese desajuste, entrenando dos ramas independientes (una visual y otra de audio) cuyos resultados se fusionan para dar una predicción final de si el vídeo es real o falso.
 
-El modelo está pensado para entrenarse en una sola GPU de consumo (RTX serie 30 o 40), así que se prioriza una arquitectura razonable en tamaño frente a soluciones más pesadas basadas en transformers.
+El modelo está pensado para entrenarse en una sola GPU de consumo, en concreto una RTX 3050 con 6 GB de memoria, así que se prioriza una arquitectura razonable en tamaño frente a soluciones más pesadas basadas en transformers.
 
 Por ahora el repositorio solo tiene montado el esqueleto de carpetas del proyecto. La implementación todavía no ha empezado.
 
